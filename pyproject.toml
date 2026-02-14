@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "test-crypto-detection"
+version = "0.1.0"
+description = "Test project for CVE-2026-26007 detection"
+authors = ["Test <test@test.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cryptography = "45.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
