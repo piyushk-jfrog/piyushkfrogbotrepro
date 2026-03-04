@@ -2,6 +2,8 @@ import yaml
 from jinja2 import Environment, BaseLoader
 from flask import Flask
 from werkzeug.serving import run_simple
+import django
+from django.utils.html import escape as html_escape
 
 app = Flask(__name__)
 
